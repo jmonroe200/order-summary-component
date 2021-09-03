@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  font-family: "Red Hat Display", sans-serif;
+  background-color: hsl(225, 100%, 94%);
+  background-image: url(./images/pattern-background-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.btn {
+  font-family: "Red Hat Display", sans-serif;
+  text-align: center;
+}
+
+.card {
+  display: grid;
+  width: 400px;
+  background: white;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+}
+
+.card_title {
+  text-align: center;
+  font-weight: 700;
+}
+
+.card_description {
+  text-align: center;
+  margin: 0px 50px;
+}
+
+.card_plan {
+  display: grid;
+  grid-template-columns: 20% 50% 30%;
+  grid-template-rows: 1fr 20px;
+  background-color: #f6f9fd;
+  align-items: center;
+  margin: 15px 50px;
+  border-radius: 15px;
+}
+
+.icon_music {
+  width: 50 px;
+  margin: 10px;
+}
+
+.btn__change {
+  font-size: 13px;
+  font-weight: 700;
+  color: hsl(245, 75%, 52%);
+  cursor: pointer;
+  text-align: right;
+}
+
+.btn__proceed {
+}
+
+.btn__cancel {
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
